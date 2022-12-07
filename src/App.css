@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background-color: #661005;
+  background-image: url("../public/bungaputar.png");
+  background-size: 200px;
 }
 
 :root {
