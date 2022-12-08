@@ -185,7 +185,7 @@ function App() {
                   textAlign={'center'}
                   paragraph
                 >
-                  Hi, my name is Abizar Leman. I'm a computer science student expected to graduate in 2023. I have experience in building web APIs and web UIs using various frontend and backend technology stacks. I enjoy introducing solutions to business problems and learning software development best practices.
+                  Hi, I'm Abizar Leman. I'm a computer science student expected to graduate in 2023. I have experience in building web APIs and web UIs using various frontend and backend technology stacks. I enjoy introducing solutions to business problems and learning software development best practices.
                 </Typography>
               </Grid>
               <Grid item xs={12} md={5} marginY={1}>
