@@ -155,17 +155,6 @@ function App() {
                     <LinkedInIcon />
                   </IconButton>
                 </Avatar>
-                {/* <Avatar sx={{ backgroundColor: '#270038' }}>
-                  <IconButton size="large" sx={{ color: '#f0e0bb' }}>
-                    <Typography
-                      variant="overline"
-                      color="#f0e0bb'"
-                      textAlign={'center'}
-                    >
-                      CV
-                    </Typography>
-                  </IconButton>
-                </Avatar> */}
                 <Avatar sx={{ backgroundColor: '#270038' }}>
                   <IconButton size="large" sx={{ color: '#f0e0bb' }} onClick={() => moveToForm()} >
                     <EmailIcon />
