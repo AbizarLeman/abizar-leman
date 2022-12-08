@@ -1,4 +1,3 @@
-import logo from './logo.svg'
 import './App.css'
 import '@fontsource/roboto/300.css'
 import '@fontsource/roboto/400.css'
@@ -10,7 +9,7 @@ import Tab from '@mui/material/Tab'
 import TabContext from '@mui/lab/TabContext'
 import TabList from '@mui/lab/TabList'
 import TabPanel from '@mui/lab/TabPanel'
-import { Avatar, Button, Card, CardActions, CardContent, CardHeader, CardMedia, CircularProgress, createTheme, Divider, Grid, IconButton, Link, Paper, Step, StepLabel, Stepper, Typography, Box, MobileStepper, TextField } from '@mui/material'
+import { Avatar, Button, Card, CardActions, CardContent, CardHeader, CardMedia, createTheme, Grid, IconButton, Link, Paper, Step, StepLabel, Stepper, Typography, MobileStepper } from '@mui/material'
 
 import LaptopIcon from '@mui/icons-material/Laptop'
 import CodeIcon from '@mui/icons-material/Code'
@@ -23,7 +22,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import TravelExploreIcon from '@mui/icons-material/TravelExplore'
 import AgricultureIcon from '@mui/icons-material/Agriculture'
-import { Stack } from '@mui/system'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft'
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight'
@@ -68,8 +66,6 @@ const images = [
 function App() {
   const contactForm = React.useRef()
 
-  const [anchorElNav, setAnchorElNav] = React.useState(null)
-  const [anchorElUser, setAnchorElUser] = React.useState(null)
   const [tab, setTab] = React.useState('About Me')
   const [activeStep, setActiveStep] = React.useState(0)
   const [bannerHeight, setBannerHeight] = React.useState(0)

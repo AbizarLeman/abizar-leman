@@ -1,4 +1,4 @@
-import { Alert, Avatar, Button, Card, CardContent, Snackbar, TextField, Typography } from '@mui/material'
+import { Alert, Card, CardContent, Snackbar, TextField, Typography } from '@mui/material'
 import * as React from 'react'
 import EmailIcon from '@mui/icons-material/Email'
 import emailjs from '@emailjs/browser'
