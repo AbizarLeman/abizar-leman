@@ -99,7 +99,6 @@ function App() {
 
   const moveToForm = () => {
     if (!contactForm.current) return
-    console.log('click')
     contactForm.current.scrollIntoView({ behavior: "smooth" })
   }
 
