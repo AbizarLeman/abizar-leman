@@ -569,6 +569,58 @@ function App() {
                         The solution was a web application developed using the Laravel framework.
                       </Typography>
                     </Grid>
+                    <Grid
+                      item
+                      xs={12}
+                      marginY={1}
+                      sx={{
+                        border: 2,
+                        borderColor: '#270038',
+                      }}
+                    >
+                      <CardMedia
+                        component={"img"}
+                        src={'frts-landing.png'}
+                      />
+                    </Grid>
+                    <Grid
+                      item
+                      xs={12}
+                      marginY={1}
+                      sx={{
+                        border: 2,
+                        borderColor: '#270038',
+                      }}
+                    >
+                      <CardMedia
+                        component={"img"}
+                        src={'frts-report-generation.png'}
+                      />
+                    </Grid>
+                    <Grid
+                      item
+                      xs={12}
+                      marginY={1}
+                      sx={{
+                        border: 2,
+                        borderColor: '#270038',
+                      }}
+                    >
+                      <CardMedia
+                        component={"img"}
+                        src={'frts-generated-report.png'}
+                      />
+                    </Grid>
+                    <Grid item xs={12} marginY={1}>
+                      <Typography
+                        variant="caption"
+                        color="black"
+                        textAlign={'center'}
+                        paragraph
+                      >
+                        Some of the screenshots of the web application.
+                      </Typography>
+                    </Grid>
                   </CardContent>
                   <CardActions>
                     <Grid container direction="row" justifyContent="center" alignItems="center" marginY={1}>
