@@ -134,7 +134,7 @@ function App() {
                 textAlign={'center'}
                 paragraph
               >
-                Aspiring software developer with interests in languages and mathematics.
+                Aspiring software developer with interests in life long learning.
               </Typography>
             </Grid>
           </Grid>
@@ -181,7 +181,7 @@ function App() {
                   textAlign={'center'}
                   paragraph
                 >
-                  Hi, I'm Abizar Leman. I'm a computer science student expected to graduate in 2023. I have experience in building web APIs and web UIs using various frontend and backend technology stacks. I enjoy introducing solutions to business problems and learning software development best practices.
+                  Hi, my name is Abizar Leman. I intend to make this site a place where I record what I have learn during my career as a sofware developer. Coming soon!
                 </Typography>
               </Grid>
               <Grid item xs={12} md={5} marginY={1}>
@@ -259,23 +259,23 @@ function App() {
               <Grid item xs={12} md={4} marginY={1}>
                 <Stepper activeStep={1} orientation="vertical">
                   <Step>
-                    <StepLabel icon={<SchoolIcon style={{ verticalAlign: "middle", fontSize: '2rem', color: '#661005' }} />}>
+                    <StepLabel icon={<ApartmentIcon style={{ verticalAlign: "middle", fontSize: '2rem', color: '#661005' }} />}>
                       <Typography
                         variant="overline"
                         color="primary"
                         paragraph
                       >
-                        <Link href="https://www.ubd.edu.bn" target="_blank" rel="noopener">University of Brunei Darussalam</Link>
+                        <Link href="https://think-axis.com" target="_blank" rel="noopener">Think Axis Solutions</Link>
                       </Typography>
                       <Typography
                         variant="body2"
                         color="black"
                         paragraph
                       >
-                        Expected to Graduate with Bsc. in Computer Science
+                        Junior Software Developer
                       </Typography>
                       <Typography color={"black"} fontStyle="italic" variant="caption">
-                        August 2023
+                        From January 2023
                       </Typography>
                     </StepLabel>
                   </Step>
@@ -293,7 +293,7 @@ function App() {
                         color="black"
                         paragraph
                       >
-                        Submitted Final Year Project and Completed Final Exam
+                        Bsc. in Computer Science
                       </Typography>
                       <Typography color={"black"} fontStyle="italic" variant="caption">
                         November 2022
@@ -360,27 +360,6 @@ function App() {
                       </Typography>
                       <Typography color={"black"} fontStyle="italic" variant="caption">
                         From May 2018 to April 2019
-                      </Typography>
-                    </StepLabel>
-                  </Step>
-                  <Step>
-                    <StepLabel icon={<SchoolIcon style={{ verticalAlign: "middle", fontSize: '2rem', color: '#661005' }} />}>
-                      <Typography
-                        variant="overline"
-                        color="primary"
-                        paragraph
-                      >
-                        <Link href="https://www.ubd.edu.bn" target="_blank" rel="noopener">University of Brunei Darussalam</Link>
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        color="black"
-                        paragraph
-                      >
-                        Majoring in Computer Science
-                      </Typography>
-                      <Typography color={"black"} fontStyle="italic" variant="caption">
-                        August 2018
                       </Typography>
                     </StepLabel>
                   </Step>
